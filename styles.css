@@ -1,0 +1,245 @@
+#header {
+    height: 60px;
+    width: auto;
+    background-color: rgb(52, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#headerleft {
+    display: flex;
+    justify-content: center;
+}
+
+#thetext {
+    margin-left: 150px;
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+
+#list {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.listitems {
+    margin-left: 80px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.listitems:hover {
+    font-size: 16px;
+    border-top: 0.01px;
+    color: yellow;
+}
+
+#handles {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+
+#main {
+    height: 500px;
+    width: auto;
+    background-color: rgb(24, 23, 23);
+    ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#image {
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+
+}
+
+#me {
+    height: 400px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 1px;
+    color: white;
+}
+
+#name {
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#list {
+
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.words {
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+}
+
+.words:hover {
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#info {
+    margin-top: -100px;
+    height: 600px;
+    width: 1335px;
+    background-color: rgb(24, 23, 23);
+    ;
+    border: yellow;
+    border-style: double;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deepinfo {
+    height: 400px;
+    width: 200px;
+    background-color: yellow;
+    margin-top: 100px;
+    font-size: 10px;
+    font-family: 'Exo', sans-serif
+}
+
+img {
+    height: 400px;
+    width: 100%;
+}
+
+.aboutme {
+    display: flex;
+    height: 600px;
+    width: auto;
+    background-color: rgb(24, 23, 23);
+    justify-content: space-evenly;
+}
+
+#left {
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(24, 23, 23);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    color: yellow;
+
+}
+
+#right {
+    height: 550px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+    margin-top: 20px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    box-shadow: 15px 7.5px 7.5px #040101;
+}
+
+hr {
+    color: yellow;
+}
+
+.handles {
+    height: 60px;
+    width: auto;
+    padding-right: 30px;
+    margin-top: 80px;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bx {
+    color: #ffff;
+    text-shadow: 0 0 20px rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-25px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.handles i:hover {
+    animation: bounce 1s infinite;
+    cursor: pointer;
+}
+
+.divider {
+    background-color: yellow;
+    height: 10px;
+    width: auto;
+}
+
+.main-content {
+    height: 600px;
+    width: auto;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    align-items:column;
+    justify-content: space-evenly;
+    color: yellow;
+    text-align: left;
+    font-size: 80px;
+}
+.skill{
+    height: 200px;
+    width: 400px;
+    background-color:  rgb(24, 23, 23);;
+    margin-top: 200px;
+    color: yellow;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: yellow;
+}
+.skill:hover{
+    border-color: yellow;
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 0 100px rgb(255, 255, 0);
+    cursor: pointer;
+}
